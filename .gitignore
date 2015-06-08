@@ -2,3 +2,4 @@
 /.idea
 #Mac config file
 .DS_Store
+node_modules

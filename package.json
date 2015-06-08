@@ -2,20 +2,21 @@
   "name": "test",
   "version": "0.0.0",
   "main": "index.html",
-  "bin" : {
-    "cloudify-test" : "./cloudify-test.js"
+  "bin": {
+    "cloudify-test": "./cloudify-test.js"
   },
   "devDependencies": {
-    "grunt": "^0.4.5"
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.2"
   },
   "window": {
     "position": "center",
-    "show":true,
+    "show": true,
     "title": "Welcome to Test POC!",
     "toolbar": false,
     "width": 1000,
     "height": 700,
     "resizable": true,
-    "frame":true
+    "frame": true
   }
 }
