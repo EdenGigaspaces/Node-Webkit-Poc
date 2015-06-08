@@ -5,7 +5,11 @@ module.exports = function(grunt) {
     });
     grunt.initConfig({
         jshint: {
-            all: ['Gruntfile.js', './*.js']
+            all: ['Gruntfile.js', './*.js'],
+            options: {
+                reporter: require('jshint-stylish')
+            },
+            target: ['file.js']
         }
     });
 
