@@ -1,0 +1,4 @@
+#IntelliJ config folder
+/.idea
+#Mac config file
+.DS_Store
