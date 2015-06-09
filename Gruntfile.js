@@ -8,8 +8,7 @@ module.exports = function(grunt) {
             all: ['Gruntfile.js', './*.js'],
             options: {
                 reporter: require('jshint-stylish')
-            },
-            target: ['file.js']
+            }
         }
     });
 
