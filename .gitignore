@@ -1,5 +1,12 @@
+dev
 #IntelliJ config folder
-/.idea
+.idea
 #Mac config file
 .DS_Store
+
+# cloudify-ui should be created by the user. They can also use symlink
+cloudify-ui
+
 node_modules
+.vagrant
+testapp.log
